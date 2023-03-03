@@ -16,7 +16,6 @@ body {
   max-width: 101.687rem;
   margin-inline: auto;
 }
-
 /* HERO SECTION */
 
 .hero {
@@ -302,4 +301,188 @@ body {
   top: 38px;
   right: 71px;
   z-index: -1;
+}
+
+/* PRICING SECTION */
+
+.pricing {
+  height: 43.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 58px;
+}
+
+.pricing__box {
+  width: 23.25rem;
+  height: 28.812rem;
+  border-radius: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.red {
+  border: 1px solid #fb3b64;
+}
+
+.blue {
+  border: 1px solid #07ace6;
+  height: 500px;
+  width: 405px;
+  box-shadow: 5px 10px 27px #07ace629;
+}
+
+.green {
+  border: 1px solid #55dfb4;
+}
+
+.title-basic {
+  font-size: 20px;
+  font-family: raleway;
+  font-weight: bold;
+  color: var(--primary-color);
+  padding-bottom: -15px;
+}
+
+.price-first {
+  color: #fb3b64;
+  font-size: 46px;
+  font-family: "open sans";
+  font-weight: 300;
+}
+
+.price-second {
+  color: #07ace6;
+  font-size: 46px;
+  font-family: "open sans";
+  font-weight: 300;
+  text-align: center;
+}
+
+.price-third {
+  color: #55dfb4;
+  font-size: 46px;
+  font-family: "open sans";
+  font-weight: 300;
+}
+
+.list {
+  text-align: center;
+  font: normal normal normal 14px/41px "Open Sans";
+}
+
+.list p {
+  margin: 0px;
+}
+
+.pricing_btn {
+  color: var(--third-color);
+  height: 50px;
+  width: 150px;
+  border-radius: 23px;
+  position: absolute;
+  bottom: -25px;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 30%;
+}
+
+.first {
+  background-color: #eb476e;
+}
+
+.second {
+  background-color: #07ace6;
+}
+
+.third {
+  background-color: #55dfb4;
+}
+
+/* FORMS SECTION */
+
+.section-forms {
+  height: 608px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__form {
+  display: flex;
+  flex-direction: row;
+  height: 379px;
+  width: 896px;
+}
+
+.text__fbox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact_details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.h3_form {
+  font-size: 49px;
+  font-family: raleway;
+  font-weight: normal;
+  padding-top: 0px;
+  padding-bottom: 22px;
+  margin: 0px;
+}
+
+.p_form {
+  font-size: 1rem;
+  font-family: "Open Sans";
+  padding-bottom: 40px;
+}
+
+.contact_details p {
+  font-size: 1rem;
+  font-family: "Open Sans";
+  color: var(--secondary-color);
+  padding-inline: 10px;
+  margin: 0;
+}
+/* FOOTER */
+
+footer {
+  height: 5.562rem;
+  width: 101.687rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 8.5rem;
+  box-shadow: 0px -5px 40px #00000029;
+}
+
+.p-companyinfo {
+  color: var(--secondary-color);
+  font-size: 0.687rem;
+  font-weight: normal;
+  font-family: "Open Sans";
+}
+
+.ftr {
+  margin-left: 0rem;
+  font-size: 1.625rem;
+}
+
+.company-social {
+  display: flex;
+  gap: 20px;
 }
