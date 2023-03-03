@@ -83,7 +83,7 @@ body {
   padding-top: 8.125rem;
 }
 
-.hero__p {
+.p__primary {
   color: var(--primary-color);
   font-size: 1rem;
   font-family: "Open Sans";
@@ -136,7 +136,7 @@ body {
   margin-top: 6.25rem;
 }
 
-.hdg2__ssct {
+.hdg2__primary {
   font-family: raleway;
   font-weight: normal;
   font-size: 2.25rem;
@@ -187,5 +187,119 @@ body {
   left: 50%;
 }
 
-
 /* BLOG SECTION */
+
+.blog_sct {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 87.1875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.312rem;
+}
+
+.blog__container {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--third-color);
+  height: 23.125rem;
+  width: 70.25rem;
+}
+
+.blog__container__diff {
+  gap: 61px;
+  display: flex;
+  flex-direction: row;
+}
+
+.img__bcontainer_diff {
+  background-color: #55dfb4;
+  height: 23.125rem;
+  width: 27.5rem;
+  border: 1px solid #e8e9ed;
+  border-radius: 5px;
+  position: relative;
+}
+
+.text___bcontainer_diff {
+  height: 23.125rem;
+  width: 38.937rem;
+  background-color: var(--third-color);
+  padding-left: 2.187rem;
+  padding-right: 1.25rem;
+}
+
+.text___bcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 2.187rem;
+  padding-right: 1.25rem;
+  flex-wrap: wrap;
+  width: 50%;
+  /* padding-top: 91px;
+  padding-bottom: 91px; */
+}
+
+.hr1 {
+  border: 4px solid #fb3b64;
+  width: 70%;
+  margin-right: 30%;
+}
+
+.hr2 {
+  border: 4px solid #08a6e4;
+  width: 70%;
+  margin-right: 30%;
+}
+
+.hr3 {
+  border: 4px solid #55dfb4;
+  width: 70%;
+  margin-right: 30%;
+}
+
+.img__bcontainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  position: relative;
+}
+
+.img-macbook {
+  width: 24.125rem;
+  height: 13.687rem;
+  z-index: 1;
+  position: relative;
+}
+
+.img-iphone {
+  width: 26.625rem;
+  height: 20.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.img-trumpet {
+  width: 18.437rem;
+  height: 12.937rem;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  z-index: 1;
+}
+
+.element-bcg1 {
+  width: 11.25rem;
+  height: 11.25rem;
+  border-radius: 2.562rem;
+  background: #fb3b64 0% 0% no-repeat padding-box;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 38px;
+  right: 71px;
+  z-index: -1;
+}
